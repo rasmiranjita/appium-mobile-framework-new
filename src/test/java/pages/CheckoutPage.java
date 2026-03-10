@@ -29,7 +29,7 @@ public class CheckoutPage {
  // Locators for checkout details
     private By firstNameField = AppiumBy.accessibilityId("test-First Name");
     private By lastNameField = AppiumBy.accessibilityId("test-Last Name");
-    private By postalCodeField = AppiumBy.xpath("test-Zip/Postal Code");
+    private By postalCodeField = AppiumBy.accessibilityId("test-Zip/Postal Code");
     private By continueButton = AppiumBy.accessibilityId("test-CONTINUE");
     private By finishButton = By.xpath("//android.view.ViewGroup[@content-desc=\"test-FINISH\"]");
     private By orderConfirmationTitle = By.xpath("//android.widget.TextView[@text=\"CHECKOUT: COMPLETE!\"]");
@@ -77,3 +77,4 @@ public class CheckoutPage {
     }
 
 }
+
