@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SwagLabs Suite">
+	<test name="Login Test">
+		<classes>
+
+		<!-- <class name="tests.LoginTest" />
+		<class name="tests.ProductSearchTest"/>
+		<class name="tests.AddToCartTest" />-->
+		<class name="tests.CheckoutTest" />
+		</classes>
+	</test>
+	
+	<listeners>
+    <listener class-name="utils.TestListener"/>
+</listeners>
+</suite>
